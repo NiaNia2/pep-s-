@@ -12,8 +12,6 @@ nav {
     padding-right: 100px;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 h1 {
@@ -21,8 +19,15 @@ h1 {
     text-align: center;
 }
 
-nav ul {
+h2 {
+    font-size: 28px;
+}
+
+li {
     list-style: none;
+}
+
+nav ul {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -38,7 +43,6 @@ nav ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 a {
@@ -49,6 +53,22 @@ a {
     display: flex;
     justify-content: center;
     border-radius: 5%;
+}
 
+.approche {
+    text-align: center
+}
 
+.you-are li::before {
+    content: "-";
+}
+
+.approche-heading {
+    text-align: center;
+}
+
+.approche-content {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
 }
