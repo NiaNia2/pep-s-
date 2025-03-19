@@ -45,7 +45,7 @@ nav ul {
     flex-direction: column;
 }
 
-a {
+.banner a {
     background-color: #ff4676;
     text-decoration: none;
     color: white;
@@ -71,4 +71,12 @@ a {
     display: flex;
     justify-content: flex-end;
     width: 70%;
+}
+
+.method-heading a {
+    background-color: white;
+    color: #ff4676;
+    border: 1px solid #ff4676;
+    text-decoration: none;
+    padding: 1%;
 }
