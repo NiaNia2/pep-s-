@@ -32,11 +32,12 @@ nav ul {
     margin-top: 5px;
     background-image: url(../img/photo-1556139943-4bdca53adf1e\ 1.jpg);
     background-size: cover;
-    height: 40vh;
+    height: 45vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 
@@ -45,11 +46,9 @@ a {
     text-decoration: none;
     color: white;
     padding: 5px;
-
-    display: inline-block;
-
-
-
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
 
 
 }
