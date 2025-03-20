@@ -72,9 +72,10 @@ nav ul {
     justify-content: center;
 }
 
+
 .you-are {
     width: 40%;
-    padding: 0 15% 0 15%
+    padding: 0;
 }
 
 
@@ -87,16 +88,20 @@ nav ul {
     padding: 0.5%;
 }
 
+.approche-content {
+    text-align: center;
+}
+
 .method-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .method {
-    width: 35%;
+    width: 50%;
 }
+
 
 #methods {
     text-align: center;
