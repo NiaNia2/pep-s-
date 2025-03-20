@@ -111,3 +111,22 @@ nav ul {
     flex-direction: column;
     align-items: center;
 }
+
+#accompaniement {
+    display: flex;
+    flex-direction: column;
+}
+
+.acc-heading {
+    text-align: center;
+}
+
+.acc-content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.linea {
+    text-align: center;
+}
