@@ -112,7 +112,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+
 }
 
 #accompaniement {
@@ -176,7 +176,41 @@ nav ul {
 #blog {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 
-.blog content {}
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.blog-content a {
+    background-color: white;
+    color: #ff4676;
+    border: 1px solid #ff4676;
+    padding: 1rem 2rem;
+    text-decoration: none;
+
+}
+
+.blog-content img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.blog-heading {
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    display: flex;
+}
