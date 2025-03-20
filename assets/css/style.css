@@ -95,11 +95,13 @@ nav ul {
 .method-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    width: 30%;
 }
 
 .method {
     width: 50%;
+
 }
 
 
@@ -110,11 +112,13 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #accompaniement {
     display: flex;
     flex-direction: column;
+    margin: 10rem;
 }
 
 .acc-heading {
@@ -124,7 +128,14 @@ nav ul {
 .acc-content {
     display: flex;
     justify-content: space-evenly;
+}
 
+.acc-content a {
+    border: 1px solid #ff4676;
+    background-color: white;
+    color: #ff4676;
+    padding: 5%;
+    text-decoration: none;
 }
 
 .linea {
@@ -136,6 +147,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5rem;
 }
 
 .heading {
@@ -160,3 +172,11 @@ nav ul {
     left: 50%;
     top: 0%;
 }
+
+#blog {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blog content {}
