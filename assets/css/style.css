@@ -5,6 +5,7 @@
 
 body {
     font-family: "Roboto";
+    margin: 0;
 }
 
 nav {
@@ -29,7 +30,6 @@ li {
 
 nav ul {
     display: flex;
-    justify-content: center;
     gap: 10px;
 }
 
@@ -77,10 +77,32 @@ nav ul {
     padding: 0 15% 0 15%
 }
 
+
+
 .method-heading a {
     background-color: white;
     color: #ff4676;
     border: 1px solid #ff4676;
     text-decoration: none;
-    padding: 1%;
+    padding: 0.5%;
+}
+
+.method-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.method {
+    width: 35%;
+}
+
+#methods {
+    text-align: center;
+    gap: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
