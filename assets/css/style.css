@@ -69,8 +69,12 @@ nav ul {
 
 .approche-content {
     display: flex;
-    justify-content: flex-end;
-    width: 70%;
+    justify-content: center;
+}
+
+.you-are {
+    width: 40%;
+    padding: 0 15% 0 15%
 }
 
 .method-heading a {
