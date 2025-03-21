@@ -64,6 +64,11 @@ nav ul {
     border-radius: 5%;
 }
 
+#coaching {
+    display: flex;
+    flex-direction: column;
+}
+
 .approche {
     text-align: center
 }
@@ -78,9 +83,9 @@ nav ul {
 
 .approche-content {
     display: flex;
-    justify-content: center;
-}
+    align-content: center;
 
+}
 
 .you-are {
     width: 40%;
@@ -230,7 +235,16 @@ nav ul {
 
 .foot-heading {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly
 }
 
-.foot {}
+.img-logo {
+    padding-left: 50%;
+}
+
+.foot ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
