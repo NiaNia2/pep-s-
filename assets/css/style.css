@@ -206,19 +206,20 @@ nav ul {
     flex-wrap: wrap;
     gap: 2rem;
     align-items: center;
+    width: 100%;
 }
 
 .blog-content a {
     background-color: white;
     color: #ff4676;
     border: 1px solid #ff4676;
-    padding: 1rem 2rem;
+    padding: 1% 2%;
     text-decoration: none;
+
 }
 
 .blog-content img {
-    width: 250px;
-    height: 250px;
+    width: 100%;
     padding-left: 5rem;
 }
 
