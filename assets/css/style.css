@@ -24,8 +24,16 @@ h2 {
     font-size: 28px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 nav ul {
@@ -101,7 +109,6 @@ nav ul {
 
 .method {
     width: 50%;
-
 }
 
 
@@ -184,7 +191,6 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
 }
 
 .blog-content a {
@@ -193,13 +199,16 @@ nav ul {
     border: 1px solid #ff4676;
     padding: 1rem 2rem;
     text-decoration: none;
+}
 
+#blog {
+    display: flex;
+    justify-content: center;
 }
 
 .blog-content img {
     width: 200px;
     height: 200px;
-    display: flex;
 }
 
 .blog-heading {
@@ -212,5 +221,17 @@ nav ul {
 }
 
 #footer {
-    display: flex;
+    margin-top: 3rem;
+    background-color: rgb(143, 139, 139);
+    width: 100%;
+
 }
+
+.foot-heading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 25%;
+}
+
+.foot {}
