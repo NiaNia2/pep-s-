@@ -119,12 +119,14 @@ nav ul {
 .method-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 30%;
+
 }
 
 .method {
     width: 50%;
+
 }
 
 #methods {
@@ -194,14 +196,15 @@ nav ul {
 
 #blog {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
 }
 
 .blog-content {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
 }
 
 .blog-content a {
@@ -212,14 +215,10 @@ nav ul {
     text-decoration: none;
 }
 
-#blog {
-    display: flex;
-    justify-content: center;
-}
-
 .blog-content img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    padding-left: 5rem;
 }
 
 .blog-heading {
@@ -227,8 +226,7 @@ nav ul {
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
+    width: 75%;
 }
 
 #footer {
