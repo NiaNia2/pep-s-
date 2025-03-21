@@ -13,6 +13,7 @@ nav {
     padding-right: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -229,9 +230,7 @@ nav ul {
 
 .foot-heading {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 25%;
+    justify-content: space-around;
 }
 
 .foot {}
